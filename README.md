@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Super Speedometer 🚥
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project developed with React js, using the command [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This application is a virtual tool
+Inspired by speed lovers, for those who like to play with speed and that for others often goes unnoticed.
 
-In the project directory, you can run:
+This instrument allows the user to simulate the speed of a vehicle or person, and show on the screen with the help of the needle if it exceeds or not.
 
-### `npm start`
+## Design Considerations ✏️
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project followed the requirements of a challenge, which are the following:
 
-### `npm test`
++ Create a box using styles that has three states: green, yellow, and red. The states should automatically change every 2 seconds.
+  
++ Create a component called "Speedometer" as shown in the image that receives a value between 0 and 100 and displays the value and changes the position of the needle accordingly.
+  
+    Suggestion: create the component using SVG graphics.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
++ It should be possible to enter the number [0 - 100] in the "Message to Update" field and after pressing the ENTER key, the value in the created SPEEDOMENTER should be updated.
+  
+At this stage, the theme of styles is very important, the aim is to obtain a visual theme that is as similar as possible to the one shown in the image.
 
-### `npm run build`
+<div align=center><img width="100%" src="https://user-images.githubusercontent.com/91838806/168876846-05ac1825-c527-4468-8259-c565d00370ea.png" ></div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div align=center><img width="100%" src="https://user-images.githubusercontent.com/91838806/168877846-a08ee158-dd04-4a90-9970-e0060b968cef.png" ></div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div align=center><img width="100%" src="https://user-images.githubusercontent.com/91838806/168877957-34def6ad-ead0-4ff4-b0b9-db3697b30fcd.png" ></div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Application development process 👩🏽‍💻
 
-### `npm run eject`
+The vectors were designed with the use of [Figma](https://www.figma.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<div align=center><img width="100%" src="https://user-images.githubusercontent.com/91838806/168880832-e2ba3932-674e-49f9-8b40-98312362eff7.jpg" ></div>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To view the prototypes you can click on this [Link](https://www.figma.com/file/DhjZLj5EUJPbUpt84bPRIz/Speedometer?node-id=0%3A1)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Regarding the code, certain error handling was done by adding respective validations in the input so that the user can enter only numerical values ​​between 1-100.
 
-## Learn More
+## Final result of the project 🎯
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This application was deployed in [Netlify](https://www.netlify.com/), in which you have access in the following [Link](https://super-speedometer-app.netlify.app/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+https://super-speedometer-app.netlify.app/
 
-### Code Splitting
+## Author 🎇
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[🙋🏽‍♀️ Mirian Alejandra Arévalo](https://github.com/mirianalejandra1996).
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📧 Contact me on: mirianalejandra1996@gmail.com
